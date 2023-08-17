@@ -1,0 +1,213 @@
+/* Fonts */
+@import url("//fonts.googleapis.com/css?family=Comfortaa");
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Dosis:wght@700&family=Lobster&display=swap');
+
+* {
+    color: black;
+}
+
+body {
+    display: block;
+    margin:  auto;
+    max-width: 100%;
+}
+
+h1, h2 {
+  text-align:  center;
+  font-family: Dosis;
+}
+
+.desc {
+  opacity: .8;
+  margin-bottom:  2%;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  border-radius:  50%;
+  display: block;
+  margin:  auto;
+}
+
+/* Styling the top nav bar */
+/* Add a black background color to the top navigation */
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  margin:  auto;
+  font-family: DM Sans;
+  position:  fixed;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 14px 5%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.raine_nav {
+  background-color: #a7bed3;
+  color: black;
+}
+
+.spring_nav {
+  background-color: #f1ffc4;
+  color: black;
+}
+
+.summer_nav {
+  background-color: #ffcaaf;
+  color: black;
+}
+
+.autumn_nav {
+  background-color: #dab894;
+  color: black;
+}
+
+.winter_nav {
+  background-color: #c6e2e9;
+  color: black;
+}
+
+.contact_nav {
+  background-color: #ccb7e5;
+  color: black;
+}
+
+/* Change the color of links on hover */
+.raine_nav:hover {
+  background-color: #5A7D9F;
+  color: whitesmoke;
+}
+
+.spring_nav:hover {
+  background-color: #93b5a2;
+  color: whitesmoke;
+}
+
+.summer_nav:hover {
+  background-color: #cb5438;
+  color: whitesmoke;
+}
+
+.autumn_nav:hover {
+  background-color: #875c36;
+  color: whitesmoke;
+}
+
+.winter_nav:hover {
+  background-color: #3A5874;
+  color: whitesmoke;
+}
+
+.contact_nav:hover {
+  background-color: #8d70b3;
+  color: whitesmoke;
+}
+
+/* Add a color to the active/current link */
+.raine_nav.active {
+  background-color: #5A7D9F;
+  color: whitesmoke;
+}
+
+.spring_nav.active {
+  background-color: #93b5a2;
+  color: whitesmoke;
+}
+
+.summer_nav.active {
+  background-color: #cb5438;
+  color: whitesmoke;
+}
+
+.autumn_nav.active {
+  background-color: #875c36;
+  color: whitesmoke;
+}
+
+.winter_nav.active {
+  background-color: #3A5874;
+  color: whitesmoke;
+}
+
+.contact_nav.active {
+  background-color: #8d70b3;
+  color: whitesmoke;
+}
+
+/* Styling each section */
+
+.season {
+    display: block;
+    padding: 100px;
+}
+
+.center_spring {
+  margin-left: 40%;
+}
+
+.center_summer {
+  margin-left: 40%;
+}
+
+.center_autumn {
+  margin-left: 40%;
+}
+
+.center_winter {
+  margin-left: 40%;
+}
+
+.center_contact {
+  display:  flex;
+  flex-direction: row;
+  margin-left: 25%;
+}
+
+.desc {
+  text-align:  center;
+}
+
+p {
+  text-align: left;
+  font-family: Comfortaa;
+  font-weight: bold;
+}
+
+.raine {
+    background-color: #a7bed3;
+    text-align:  center;
+}
+
+.spring {
+    background-color: #f1ffc4;
+}
+
+.summer {
+    background-color: #ffcaaf;
+}
+
+.autumn {
+    background-color: #dab894;
+}
+
+.winter {
+    background-color: #c6e2e9;
+}
+
+.contact {
+    background-color: #ccb7e5;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+  margin-left: 150px;
+}
